@@ -33,20 +33,20 @@ export PATH=$PATH:/Applications/MAMP/Library/bin/
     cd wp-content/themes/
     git clone https://github.com/chles/wphl.git
 ```
-5. Import .sql (dump is in the repo). Few optionnal commnds here :
+5. Import .sql (dump is in the repo). Few optionnal commands here :
 ```
     // wp theme activate wphless (already active with sql import)
     // wp theme delete twentyfifteen/twentysixteen/twentyseventeen
 ```
 6. Save permalinks (Settings > Permalinks > Post Name > Save changes) in the wordpress admin (it will flush database)
    
-   
+ 
+*You're ready :+1: Have a look to your localhost.*
+
+ 
  ### Logs
  - User: admin
  - Pwd : admin
-
-
-*You're ready :+1: Have a look to your localhost.*
 
 
 ## Read more
