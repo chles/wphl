@@ -33,7 +33,7 @@ export PATH=$PATH:/Applications/MAMP/Library/bin/
     cd wp-content/themes/
     git clone https://github.com/chles/wphl.git
 ```
-5. Import .sql
+5. Import .sql (dump is in the repo). Few optionnal commnds here :
 ```
     // wp theme activate wphless (already active with sql import)
     // wp theme delete twentyfifteen/twentysixteen/twentyseventeen
