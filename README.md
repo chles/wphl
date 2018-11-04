@@ -72,11 +72,11 @@ To include this to my theme I require the new post type in the functions.php fil
 I was able to create posts `wp post generate --count=20 --post_type=movie`
 Then, I add a custom endpoint to the REST API to load just what I need.
 I launch the app `npm run start` and work on this webserver.
+I add a [react router](https://reacttraining.com/react-router/) to provide some custom urls to details posts.
+Finally I build the project `npm run build` and add sources to the index.
 
 
 ## Read more
 
 - [WP-CLI](https://developer.wordpress.org/cli/commands/)
 - [React APP](https://github.com/facebook/create-react-app)
-I add a [react router](https://reacttraining.com/react-router/) to provide some custom urls to details posts.
-Finally I build the project `npm run build` and add sources to the index.
